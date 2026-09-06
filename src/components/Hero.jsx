@@ -171,7 +171,7 @@ export default function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.6, duration: 0.8 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-xs text-[--color-text-dim] hover:text-[--color-text-muted] transition-colors focus-ring"
+        className="absolute bottom-16 md:bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-xs text-[--color-text-dim] hover:text-[--color-text-muted] transition-colors focus-ring"
       >
         Scroll to explore
         <motion.span
