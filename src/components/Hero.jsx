@@ -163,24 +163,24 @@ export default function Hero() {
       </div>
 
       <motion.a
-  href="#about"
-  onClick={(e) => {
-    e.preventDefault();
-    document.querySelector("#about")?.scrollIntoView({ behavior: "smooth" });
-  }}
-  initial={{ opacity: 0 }}
-  animate={{ opacity: 1 }}
-  transition={{ delay: 1.6, duration: 0.8 }}
-  className="mt-8 md:hidden flex flex-col items-center gap-2 text-xs text-[--color-text-dim] hover:text-[--color-text-muted] transition-colors focus-ring"
->
-  Scroll to explore
-  <motion.span
-    animate={{ y: [0, 6, 0] }}
-    transition={{ duration: 1.6, repeat: Infinity, ease: "easeInOut" }}
-  >
-    <ArrowDown size={14} />
-  </motion.span>
-</motion.a>
+        href="#about"
+        onClick={(e) => {
+          e.preventDefault();
+          document.querySelector("#about")?.scrollIntoView({ behavior: "smooth" });
+        }}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 1.6, duration: 0.8 }}
+        className="hidden md:flex absolute bottom-8 left-1/2 -translate-x-1/2 flex-col items-center gap-2 text-xs text-[--color-text-dim] hover:text-[--color-text-muted] transition-colors focus-ring"
+      >
+        Scroll to explore
+        <motion.span
+          animate={{ y: [0, 6, 0] }}
+          transition={{ duration: 1.6, repeat: Infinity, ease: "easeInOut" }}
+        >
+          <ArrowDown size={14} />
+        </motion.span>
+      </motion.a>
     </section>
   );
 }
