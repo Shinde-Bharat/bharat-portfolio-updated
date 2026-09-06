@@ -27,7 +27,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center pt-28 pb-16 md:pt-24 overflow-hidden"
+      className="relative min-h-0 flex items-center pt-28 pb-16 md:min-h-screen md:pt-24 overflow-hidden"
     >
       {/* background */}
       <div className="absolute inset-0 noise-grid opacity-40 [mask-image:radial-gradient(ellipse_60%_60%_at_50%_30%,black,transparent)]" />
