@@ -27,8 +27,8 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-0 flex items-center pt-28 pb-16 md:min-h-screen md:pt-24 overflow-hidden"
-    >
+      className="relative min-h-screen flex items-center pt-28 pb-16 md:pt-24 overflow-hidden"
+      >
       {/* background */}
       <div className="absolute inset-0 noise-grid opacity-40 [mask-image:radial-gradient(ellipse_60%_60%_at_50%_30%,black,transparent)]" />
       <div className="absolute -top-32 -right-32 w-[32rem] h-[32rem] rounded-full bg-[--color-accent]/20 blur-[120px]" />
@@ -171,7 +171,7 @@ export default function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.6, duration: 0.8 }}
-        className="absolute bottom-16 md:bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-xs text-[--color-text-dim] hover:text-[--color-text-muted] transition-colors focus-ring"
+        className="hidden md:flex absolute bottom-8 left-1/2 -translate-x-1/2 flex-col items-center gap-2 text-xs text-[--color-text-dim] hover:text-[--color-text-muted] transition-colors focus-ring"
       >
         Scroll to explore
         <motion.span
