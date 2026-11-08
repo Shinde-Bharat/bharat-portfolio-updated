@@ -1,7 +1,7 @@
 export const skillCategories = [
   {
     category: "Languages",
-    skills: ["C", "C++", "Python", "JavaScript (ES6+)", "SQL"],
+    skills: ["C", "C++", "Python" , "SQL"],
   },
   {
     category: "Frontend",
@@ -13,7 +13,6 @@ export const skillCategories = [
       "Node.js",
       "MongoDB",
       "REST APIs",
-      "Firebase",
       "API Integration",
       "Authentication",
     ],
@@ -24,7 +23,20 @@ export const skillCategories = [
   },
   {
     category: "Core Concepts",
-    skills: ["Data Structures & Algorithms", "OOPs Concepts", "Problem Solving"],
+    skills: ["Data Structures & Algorithms", "OOPs Concepts", "SDLC"],
+  },
+  {
+    category: "Data Engineering & Analytics",
+    skills: [
+      "Python",
+      "SQL",
+      "Pandas",
+      "ETL",
+      "Data Pipelines",
+      "AWS S3",
+      "Data Cleaning",
+      "Power BI"
+    ]
   },
 ];
 

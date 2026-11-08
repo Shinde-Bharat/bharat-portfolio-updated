@@ -27,9 +27,9 @@ const item = {
 
 const codeLines = [
   { indent: 0, text: "const build = () => {" },
-  { indent: 1, text: "stack: ['react', 'node', 'ml']," },
-  { indent: 1, text: "focus: 'reliable systems'," },
-  { indent: 1, text: "status: 'shipping'" },
+  { indent: 1, text: "stack: ['React', 'Python', 'SQL']," },
+  { indent: 1, text: "dataPipeline: '3.47M records'," },
+  { indent: 1, text: "focus: 'Data Engineering + Full Stack'," },
   { indent: 0, text: "}" },
 ];
 
@@ -73,17 +73,16 @@ export default function Hero() {
           >
             <span>Software Developer</span>
             <span className="text-[--color-text-dim]">·</span>
-            <span>Full Stack Enthusiast</span>
-            <span className="text-[--color-text-dim]">·</span>
-            <span>Problem Solver</span>
+            <span>Data Engineering Enthusiast</span>
+            {/* <span className="text-[--color-text-dim]">·</span>
+            <span>Problem Solver</span> */}
           </motion.div>
 
           <motion.p
             variants={item}
             className="mt-6 max-w-lg text-base md:text-lg text-[--color-text-muted] leading-relaxed"
           >
-            Building reliable software, solving complex problems, and turning
-            ideas into meaningful digital experiences.
+            Building full-stack applications, developing data pipelines, and transforming raw data into meaningful insights through reliable software and data engineering solutions.
           </motion.p>
 
           <motion.div

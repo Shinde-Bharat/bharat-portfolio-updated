@@ -11,7 +11,7 @@ const cards = [
   },
   {
     icon: Cpu,
-    title: "ML Enthusiast",
+    title: "Data Engineering Enthusiast",
     description:
       "Passionate about machine learning and AI. Developed models for signature detection and resume analysis using TensorFlow and Keras.",
   },
